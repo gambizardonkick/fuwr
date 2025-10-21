@@ -105,7 +105,7 @@ body {
   justify-content: center;
   overflow: hidden;
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
-    url("/assets/bg.png");
+    url("/50a35027-9ee4-4543-be98-4717b5d2d804.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; /* Add this line */
@@ -770,7 +770,7 @@ body {
   justify-content: center;
   overflow: hidden;
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
-    url("/assets/bg2.png");
+    url("/50a35027-9ee4-4543-be98-4717b5d2d804.png");
   background-size: cover;
   background-position: center center; /* Add this line */
   background-repeat: no-repeat;
