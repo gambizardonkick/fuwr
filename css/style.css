@@ -105,7 +105,7 @@ body {
   justify-content: center;
   overflow: hidden;
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
-    url("/assets/bg1.png");
+    url("/assets/unnamed.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; /* Add this line */
@@ -752,6 +752,7 @@ body {
 
   50% {
     opacity: 0.5;
+  }
 
   100% {
     opacity: 1;
@@ -769,7 +770,7 @@ body {
   justify-content: center;
   overflow: hidden;
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
-    url("/assets/bg2.png");
+    url("/assets/image.png");
   background-size: cover;
   background-position: center center; /* Add this line */
   background-repeat: no-repeat;
