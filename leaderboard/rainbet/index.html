@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Showerfoam</title>
+    <title>FUWR</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
     <link
       rel="stylesheet"
@@ -338,9 +338,8 @@
                     <a href="/leaderboard/rainbet" class="footer-link">Leaderboard</a>
                 </div>
                 <div class="footer-social">
-                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                    <a href="https://kick.com/"><i class="fa-brands fa-kickstarter-k"></i></a>
-                    <a href="https://discord.gg/tUrAhmZEbK"><i class="fab fa-discord"></i></a>
+                    <a href="https://kick.com/FUWR"><i class="fa-brands fa-kickstarter-k"></i></a>
+                    <a href="https://discord.gg/YFEe3VUKcy"><i class="fab fa-discord"></i></a>
                 </div>
             </div>
             <div class="gamble-aware">
@@ -350,7 +349,7 @@
                         class="gamble-aware-link">BeGambleAware.org</a>
                 </p>
             </div>
-            <p class="footer-text">&copy; 2025 Showerfoam. All rights reserved.</p>
+            <p class="footer-text">&copy; 2025 FUWR. All rights reserved.</p>
         </div>
     </footer>
 
@@ -409,8 +408,8 @@
       async function fetchLeaderboardData() {
         try {
           const [leaderboardResponse, countdownResponse] = await Promise.all([
-            fetch('https://showerfoamdata.vercel.app/api/leaderboard/rainbet'),
-            fetch('https://showerfoamdata.vercel.app/api/countdown/rainbet')
+            fetch('https://fuwrdata.vercel.app/api/leaderboard/rainbet'),
+            fetch('https://fuwrdata.vercel.app/api/countdown/rainbet')
           ]);
           if (!leaderboardResponse.ok || !countdownResponse.ok) throw new Error('Network response was not ok');
           const leaderboardData = await leaderboardResponse.json();
@@ -486,7 +485,7 @@
 
         async function populatePreviousLeaderboard() {
           try {
-            const res = await fetch('https://showerfoamdata.vercel.app/api/prev-leaderboard/rainbet');
+            const res = await fetch('https://fuwrdata.vercel.app/api/prev-leaderboard/rainbet');
             if(!res.ok) throw new Error('Failed to fetch previous leaderboard');
             const data = await res.json();
             const leaderboard = data.leaderboard || [];
